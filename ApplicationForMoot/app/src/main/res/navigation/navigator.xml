@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigator"
+    app:startDestination="@id/listOfUsersFragment">
+    <fragment
+        android:id="@+id/listOfUsersFragment"
+        android:name="com.example.mootapplication.ui.views.ui.ListOfUsersFragment"
+        android:label="ListOfUsersFragment"
+        tools:layout="@layout/fragment_list_of_user_fragment" >
+        <action
+            android:id="@+id/action_listOfUsersFragment_to_registerUserFragment"
+            app:destination="@id/registerUserFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/registerUserFragment"
+        android:name="com.example.mootapplication.ui.views.ui.RegisterUsersFragment"
+        android:label="RegisterUsersFragment"
+        tools:layout="@layout/register_user_fragment" >
+        <action
+            android:id="@+id/action_registerUserFragment_to_listOfUsersFragment"
+            app:destination="@id/listOfUsersFragment" />
+    </fragment>
+
+</navigation>

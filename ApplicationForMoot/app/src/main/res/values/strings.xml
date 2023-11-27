@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Moot application</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="search_users">Search Users</string>
+    <string name="add_list">add_list</string>
+    <string name="register">Register</string>
+    <string name="error_name_length">O nome deve ter mais de 30 caracteres.</string>
+    <string name="error_username_exists">Já existe um usuário com este nome de usuário.</string>
+    <string name="error_password_requirements">A senha deve ter pelo menos 8 caracteres, incluindo pelo menos um número e uma letra maiúscula.</string>
+    <string name="error_email_format">O formato do email é inválido.</string>
+    <string name="error_age_requirement">Você deve ter pelo menos 18 anos para se cadastrar.</string>
+    <string name="label_name">Nome</string>
+    <string name="label_username">Username</string>
+    <string name="label_password">Senha</string>
+    <string name="label_photo">Foto</string>
+    <string name="label_address">Endereço</string>
+    <string name="label_email">Email</string>
+    <string name="label_birth_date">Data de Nascimento</string>
+    <string name="label_gender">Sexo</string>
+    <string name="label_cpf_cnpj">CPF/CNPJ</string>
+    <string name="register_user">Cadastrar</string>
+</resources>

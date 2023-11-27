@@ -1,0 +1,15 @@
+buildscript {
+    ext.kotlinVersion = '1.7.2'
+    ext.koinVersion = '3.3.3'
+    repositories {
+        google()
+        mavenCentral()
+    }
+
+    dependencies {
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlinVersion"
+        classpath 'com.google.dagger:hilt-android-gradle-plugin:2.40.5'
+        classpath 'com.android.tools.build:gradle:8.0.0'
+        classpath "androidx.navigation:navigation-safe-args-gradle-plugin:2.7.5"
+    }
+}
